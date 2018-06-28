@@ -14,6 +14,15 @@
 		D966179220E544230034BF70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D966179020E544230034BF70 /* LaunchScreen.storyboard */; };
 		D966179D20E544230034BF70 /* EncStreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D966179C20E544230034BF70 /* EncStreamTests.swift */; };
 		D96617A820E544230034BF70 /* EncStreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96617A720E544230034BF70 /* EncStreamUITests.swift */; };
+		D96617B620E544FF0034BF70 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96617B520E544FF0034BF70 /* VideoPlayerView.swift */; };
+		D96617CC20E5454A0034BF70 /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = D96617B920E545470034BF70 /* RNCryptor.m */; };
+		D96617CD20E5454A0034BF70 /* DVAssetLoaderError.m in Sources */ = {isa = PBXBuildFile; fileRef = D96617BA20E545480034BF70 /* DVAssetLoaderError.m */; };
+		D96617CE20E5454A0034BF70 /* DVAssetLoaderHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = D96617BD20E545480034BF70 /* DVAssetLoaderHelpers.m */; };
+		D96617CF20E5454A0034BF70 /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = D96617C120E545480034BF70 /* RNEncryptor.m */; };
+		D96617D020E5454A0034BF70 /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = D96617C520E545490034BF70 /* RNDecryptor.m */; };
+		D96617D120E5454A0034BF70 /* DVURLAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = D96617C820E545490034BF70 /* DVURLAsset.m */; };
+		D96617D220E5454A0034BF70 /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = D96617C920E545490034BF70 /* RNCryptorEngine.m */; };
+		D96617D320E5454A0034BF70 /* DVAssetLoaderDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D96617CB20E545490034BF70 /* DVAssetLoaderDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,27 @@
 		D96617A320E544230034BF70 /* EncStreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EncStreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D96617A720E544230034BF70 /* EncStreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncStreamUITests.swift; sourceTree = "<group>"; };
 		D96617A920E544230034BF70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D96617B520E544FF0034BF70 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		D96617B820E545460034BF70 /* EncStream-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EncStream-Bridging-Header.h"; sourceTree = "<group>"; };
+		D96617B920E545470034BF70 /* RNCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptor.m; sourceTree = "<group>"; };
+		D96617BA20E545480034BF70 /* DVAssetLoaderError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVAssetLoaderError.m; sourceTree = "<group>"; };
+		D96617BB20E545480034BF70 /* DVAssetLoaderHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVAssetLoaderHelpers.h; sourceTree = "<group>"; };
+		D96617BC20E545480034BF70 /* RNCryptorEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptorEngine.h; sourceTree = "<group>"; };
+		D96617BD20E545480034BF70 /* DVAssetLoaderHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVAssetLoaderHelpers.m; sourceTree = "<group>"; };
+		D96617BE20E545480034BF70 /* RNDecryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNDecryptor.h; sourceTree = "<group>"; };
+		D96617BF20E545480034BF70 /* DVAssetLoaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVAssetLoaderDelegate.h; sourceTree = "<group>"; };
+		D96617C020E545480034BF70 /* RNCryptor+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor+Private.h"; sourceTree = "<group>"; };
+		D96617C120E545480034BF70 /* RNEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNEncryptor.m; sourceTree = "<group>"; };
+		D96617C220E545480034BF70 /* DVAssetLoaderDelegatesDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVAssetLoaderDelegatesDelegate.h; sourceTree = "<group>"; };
+		D96617C320E545480034BF70 /* RNEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNEncryptor.h; sourceTree = "<group>"; };
+		D96617C420E545480034BF70 /* DVAssetLoaderError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVAssetLoaderError.h; sourceTree = "<group>"; };
+		D96617C520E545490034BF70 /* RNDecryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNDecryptor.m; sourceTree = "<group>"; };
+		D96617C620E545490034BF70 /* RNCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptor.h; sourceTree = "<group>"; };
+		D96617C720E545490034BF70 /* DVAssetLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVAssetLoader.h; sourceTree = "<group>"; };
+		D96617C820E545490034BF70 /* DVURLAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVURLAsset.m; sourceTree = "<group>"; };
+		D96617C920E545490034BF70 /* RNCryptorEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptorEngine.m; sourceTree = "<group>"; };
+		D96617CA20E545490034BF70 /* DVURLAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVURLAsset.h; sourceTree = "<group>"; };
+		D96617CB20E545490034BF70 /* DVAssetLoaderDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVAssetLoaderDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +129,8 @@
 			children = (
 				D966178720E544210034BF70 /* AppDelegate.swift */,
 				D966178920E544210034BF70 /* ViewController.swift */,
+				D96617B520E544FF0034BF70 /* VideoPlayerView.swift */,
+				D96617B720E545330034BF70 /* Healpers */,
 				D966178B20E544210034BF70 /* Main.storyboard */,
 				D966178E20E544230034BF70 /* Assets.xcassets */,
 				D966179020E544230034BF70 /* LaunchScreen.storyboard */,
@@ -123,6 +155,33 @@
 				D96617A920E544230034BF70 /* Info.plist */,
 			);
 			path = EncStreamUITests;
+			sourceTree = "<group>";
+		};
+		D96617B720E545330034BF70 /* Healpers */ = {
+			isa = PBXGroup;
+			children = (
+				D96617C720E545490034BF70 /* DVAssetLoader.h */,
+				D96617BF20E545480034BF70 /* DVAssetLoaderDelegate.h */,
+				D96617CB20E545490034BF70 /* DVAssetLoaderDelegate.m */,
+				D96617C220E545480034BF70 /* DVAssetLoaderDelegatesDelegate.h */,
+				D96617C420E545480034BF70 /* DVAssetLoaderError.h */,
+				D96617BA20E545480034BF70 /* DVAssetLoaderError.m */,
+				D96617BB20E545480034BF70 /* DVAssetLoaderHelpers.h */,
+				D96617BD20E545480034BF70 /* DVAssetLoaderHelpers.m */,
+				D96617CA20E545490034BF70 /* DVURLAsset.h */,
+				D96617C820E545490034BF70 /* DVURLAsset.m */,
+				D96617C620E545490034BF70 /* RNCryptor.h */,
+				D96617B920E545470034BF70 /* RNCryptor.m */,
+				D96617C020E545480034BF70 /* RNCryptor+Private.h */,
+				D96617BC20E545480034BF70 /* RNCryptorEngine.h */,
+				D96617C920E545490034BF70 /* RNCryptorEngine.m */,
+				D96617BE20E545480034BF70 /* RNDecryptor.h */,
+				D96617C520E545490034BF70 /* RNDecryptor.m */,
+				D96617C320E545480034BF70 /* RNEncryptor.h */,
+				D96617C120E545480034BF70 /* RNEncryptor.m */,
+				D96617B820E545460034BF70 /* EncStream-Bridging-Header.h */,
+			);
+			path = Healpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +252,7 @@
 				TargetAttributes = {
 					D966178320E544210034BF70 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					D966179720E544230034BF70 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -256,8 +316,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D96617CF20E5454A0034BF70 /* RNEncryptor.m in Sources */,
 				D966178A20E544210034BF70 /* ViewController.swift in Sources */,
+				D96617D320E5454A0034BF70 /* DVAssetLoaderDelegate.m in Sources */,
+				D96617CC20E5454A0034BF70 /* RNCryptor.m in Sources */,
+				D96617D220E5454A0034BF70 /* RNCryptorEngine.m in Sources */,
+				D96617CD20E5454A0034BF70 /* DVAssetLoaderError.m in Sources */,
+				D96617D020E5454A0034BF70 /* RNDecryptor.m in Sources */,
 				D966178820E544210034BF70 /* AppDelegate.swift in Sources */,
+				D96617D120E5454A0034BF70 /* DVURLAsset.m in Sources */,
+				D96617B620E544FF0034BF70 /* VideoPlayerView.swift in Sources */,
+				D96617CE20E5454A0034BF70 /* DVAssetLoaderHelpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +499,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZALXY7FXB6;
 				INFOPLIST_FILE = EncStream/Info.plist;
@@ -439,6 +509,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.20degrees.EncStream;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EncStream/Healpers/EncStream-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,6 +520,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZALXY7FXB6;
 				INFOPLIST_FILE = EncStream/Info.plist;
@@ -457,6 +530,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.20degrees.EncStream;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EncStream/Healpers/EncStream-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
