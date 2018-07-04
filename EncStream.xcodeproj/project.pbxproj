@@ -14,7 +14,6 @@
 		D966179220E544230034BF70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D966179020E544230034BF70 /* LaunchScreen.storyboard */; };
 		D966179D20E544230034BF70 /* EncStreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D966179C20E544230034BF70 /* EncStreamTests.swift */; };
 		D96617A820E544230034BF70 /* EncStreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96617A720E544230034BF70 /* EncStreamUITests.swift */; };
-		D96617B620E544FF0034BF70 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96617B520E544FF0034BF70 /* VideoPlayerView.swift */; };
 		D96617CC20E5454A0034BF70 /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = D96617B920E545470034BF70 /* RNCryptor.m */; };
 		D96617CD20E5454A0034BF70 /* DVAssetLoaderError.m in Sources */ = {isa = PBXBuildFile; fileRef = D96617BA20E545480034BF70 /* DVAssetLoaderError.m */; };
 		D96617CE20E5454A0034BF70 /* DVAssetLoaderHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = D96617BD20E545480034BF70 /* DVAssetLoaderHelpers.m */; };
@@ -56,7 +55,6 @@
 		D96617A320E544230034BF70 /* EncStreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EncStreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D96617A720E544230034BF70 /* EncStreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncStreamUITests.swift; sourceTree = "<group>"; };
 		D96617A920E544230034BF70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D96617B520E544FF0034BF70 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		D96617B820E545460034BF70 /* EncStream-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EncStream-Bridging-Header.h"; sourceTree = "<group>"; };
 		D96617B920E545470034BF70 /* RNCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptor.m; sourceTree = "<group>"; };
 		D96617BA20E545480034BF70 /* DVAssetLoaderError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVAssetLoaderError.m; sourceTree = "<group>"; };
@@ -129,7 +127,6 @@
 			children = (
 				D966178720E544210034BF70 /* AppDelegate.swift */,
 				D966178920E544210034BF70 /* ViewController.swift */,
-				D96617B520E544FF0034BF70 /* VideoPlayerView.swift */,
 				D96617B720E545330034BF70 /* Healpers */,
 				D966178B20E544210034BF70 /* Main.storyboard */,
 				D966178E20E544230034BF70 /* Assets.xcassets */,
@@ -325,7 +322,6 @@
 				D96617D020E5454A0034BF70 /* RNDecryptor.m in Sources */,
 				D966178820E544210034BF70 /* AppDelegate.swift in Sources */,
 				D96617D120E5454A0034BF70 /* DVURLAsset.m in Sources */,
-				D96617B620E544FF0034BF70 /* VideoPlayerView.swift in Sources */,
 				D96617CE20E5454A0034BF70 /* DVAssetLoaderHelpers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
